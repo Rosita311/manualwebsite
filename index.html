@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>De gebruiksaanwijzing van Rosita</title>
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header Section -->
@@ -12,12 +13,12 @@
         <h1>De gebruiksaanwijzing van Rosita</h1>
         <nav>
             <ul>
-                <li><a href="#introduction">Over mij</a></li>
+                <li><a href="#introduction">Rosita</a></li>
                 <li><a href="#cp">Cerebrale Parese</a></li>
-                <li>Mijn beperkingen</li>
-                <li>Mijn kwaliteiten</li>
-                <li>Wat vind ik belangrijk</li>
-                <li><a href="#about">Over deze website</a></li>
+                <li><a href ="#">Beperkingen</a></li>
+                <li><a href="#">Kwaliteiten</a></li>
+                <li><a href="#">Wat vind ik belangrijk</a></li>
+                <li><a href="#">Wat heb ik nodig</a></li>
             </ul>
         </nav>
     </header>
@@ -25,40 +26,60 @@
     <!-- Introduction Section -->
         <div id="introduction">
             <h2>Introductie</h2>
-            <button onclick="typeWriter()">Klik hier!</button>
+            <div class="intro">
+                <div class="container">
+                    <button onclick="typeWriter()">Klik hier!</button>
 
-            <p id="rosita"></p>
+                    <p id="rosita"></p>
 
-            <script>
-            var i = 0;
-            var txt = 'Ik ben Rosita, 36 jaar en woon samen in Brummen met mijn vriend en mijn zoon.';
-            var speed = 50;
+                    <script>
+                    var i = 0;
+                    var txt = 'Ik ben Rosita, 36 jaar en woon samen in Brummen met mijn vriend en mijn zoon.';
+                    var speed = 50;
 
-            function typeWriter() {
-            if (i < txt.length) {
-                document.getElementById("rosita").innerHTML += txt.charAt(i);
-                i++;
-                setTimeout(typeWriter, speed);
-            }
-            }
-            </script>
-            <p>Ik wil heel graag aan het werk als (web)developer. Ik vind het namelijk erg leuk om websites te bouwen. Momenteel volg ik een Werk-Fit traject via het UWV om uit te zoeken, waar mijn interesses liggen (deze heb ik nu dus gevonden), daarnaast weet ik nog niet hoeveel uur ik kan werken en wat voor werkplek bij mij past. Ook is het belangrijk om een goede </p>
+                    function typeWriter() {
+                    if (i < txt.length) {
+                        document.getElementById("rosita").innerHTML += txt.charAt(i);
+                        i++;
+                        setTimeout(typeWriter, speed);
+                    }
+                    }
+                    </script>
+                    <p>Ik wil heel graag aan het werk als (web)developer. Ik vind het namelijk erg leuk om websites te bouwen. Momenteel volg ik een Werk-Fit traject via het UWV om uit te zoeken, waar mijn interesses liggen (deze heb ik nu dus gevonden), daarnaast weet ik nog niet hoeveel uur ik kan werken en wat voor werkplek bij mij past. Ook is het belangrijk om een goede blalans te vinden tussen werk en privé. Naast het Werk-Fit traject volg ik een online cursus webdevelopment bij <a href="https://www.codecademy.com/" target="_blank">Codecademy</a> en heb ik sinds september 2016 mijn eigen blog op <a href="https://www.rulesbyrosita.nl/" target="_blank">rulesbyrosita.nl</a></p>
+                </div>
+                <div class="container">
+                    <figure id="selfie">
+                        <img class="photo" src="./resources/images/selfie.jpg" alt="Rosita">
+                    </figure>
+                </div>
+            </div>
         </div>
+        </div>
+
         <!-- Cerebral Palsy Section -->
-        <div id="cp>"
-            <p>Ik heb Cerebrale Parese(CP). CP is een houdings- en bewegingsstoornis als gevolg van een hersenbeschadiging die plaats vond voor de eerste verjaardag van het kind. </p>
+        <div id="cp">
+            <h2>Cerebrale Parese</h2>
+            <p>Ik heb Cerebrale Parese(CP). CP is een houdings- en bewegingsstoornis als gevolg van een hersenbeschadiging die plaats vond voor de eerste verjaardag van het kind. CP heeft verschillende oorzaken, zolang het maar plaats vond rond de geboorte en in het eerste levensjaar. Loopt iemand na het eerste levensjaar een hersenbeschadiging op, dan is er sprake van Niet Aangeboren Hersenletsel(NAH). Cerebrale Parese valt ook onder hersenletsel.<a href="https://www.rulesbyrosita.nl/cerebrale-parese/" target="_blank">Hier lees je meer over CP</a>.</p>
+            <h3>Cerebrale Parese bij mij</h3>
+            <p>Ik heb cerebrale parese gekregen doordat ik 3 maanden te vroeg ben geboren en ik daarbij een zuurstofgebrek heb gehad, hierdoor heb ik een hersenbeschadiging opgelopen en ben ik spastisch aan de rechterkant van mijn lichaam.</p>
+            <p>Tot mijn 33ste heb ik altijd gedacht dat ik alleen maar fysieke beperkingen had als gevolg van mijn CP. Dat bleek dus niet zo te zijn. Vanaf 2010 t/m 2017 studeerde ik Maatschappelijk Werk en Dienstverlening op het HBO. Dat ging goed tot ik helemaal vastliep tijdens mijn derdejaars stage. Omdat ik tegen een burn-out aanliep ben ik gestopt. Omdat ik allerlei dingen niet kon en daar ook geen verbetering kwam ben ik op advies van mijn revalidatiearts gaan revalideren in  de Sint Maartenskliniek. Ik kreeg daar een Neuropsychologisch onderzoek. Uit dat onderzoek is gebleken dat ik een trage informatieverwerking heb. Daarna heb ik een aantal dingen geleerd, zoals plannen, koken en blindtypen met een hand.</p>
         </div>
         <!-- Limitations Section-->
+        <div id="limitations">
+            <h2>Beperkingen als gevolg van CP</h2>
+            <p></p>
+
+        </div>
         <!-- Qualities Section-->
         <!--Values Section  -->
-        <!-- About Section -->
-        <div id=about>
-            <p>Ik maak deze website omdat ik graag aan het werk wil als (web)developer. Dat betekent naast veel leren dat ik ook veel moet oefenen met het daadwerkelijk maken van een website. Toevallig heb ik als opdracht voor <a href="https://www.cnvjongeren.nl/realistenacademie/">De Realisten Academie</a> en <a href="https://floorjongerencoaching.nl/">FLOOR Jongerencoaching</a> om een gebruiksaanwijzing over mezelf te maken. Nu wil ik beiden combineren, dus bouw ik een website met daarop mijn gebruiksaanwijzing. Voor deze website maak ik gebruik van HTML, CSS en omdat ik nu begin met Javascript te leren, heb ik er een beetje Javascript in gezet. Het doel is om alles wat ik tot nu toe heb geleerd en de dingen die ik bij de Realisten Academie in deze website te stoppen.</p>
-        </div>
+        <!-- Needs Section -->
+           
     </main>
     <!-- Footer Section -->
     <footer>
-
+        <h2>Over deze website</h2>
+        <p>Ik maak deze website omdat ik graag aan het werk wil als (web)developer. Dat betekent naast veel leren dat ik ook veel moet oefenen met het daadwerkelijk maken van een website. Toevallig heb ik als opdracht voor <a href="https://www.cnvjongeren.nl/realistenacademie/" target="_blank">De Realisten Academie</a> en <a href="https://floorjongerencoaching.nl/" target="_blank">FLOOR Jongerencoaching</a> om een gebruiksaanwijzing over mezelf te maken. Nu wil ik beiden combineren, dus bouw ik een website met daarop mijn gebruiksaanwijzing. Voor deze website maak ik gebruik van HTML, CSS en omdat ik nu begin met Javascript te leren, heb ik er een beetje Javascript in gezet. Het doel is om alles wat ik tot nu toe heb geleerd en de dingen die ik bij de Realisten Academie in deze website te stoppen.</p>
+    </div>
     </footer>
 </body>
 </html>

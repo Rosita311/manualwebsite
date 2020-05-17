@@ -3,16 +3,138 @@ body {
     font-family: Helvetica, Arial, Sans-serif;
 }
 
+h1 {
+    font-family: 'Cantarell', sans-serif;
+    color: #52B3A2;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    color: #8A2A8C;
+}
+
+a {
+  color: #8A2A8C; 
+  text-decoration: none; 
+}
+
+
 /* Header Section */
+header {
+    border-bottom:rgb(233,233,233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    z-index: 1; 
+    background-color: white;
+    top: 0; 
+}
+
+nav { 
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+ nav ul {
+     list-style: none;
+     display: flex; 
+     align-items: center;  
+ }
+
+ li a {
+     text-decoration: none;
+     display: flex;
+     float: right;
+     margin: 5px;
+     text-align: center;
+     font-family: 'Cantarell', sans-serif;
+     color: #52B3A2;
+     text-align: center;
+ }
 
 /* Introduction Section */
+#introduction {
+    background-color: #FFE99C;
+    border-radius: 4px;
+    padding: 20px;
+    position: relative;
+    margin: 90px 0 10px 0;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    background-color: #52B3A2;
+    border: 1px solid #52B3A2;
+    border-radius: 4px;
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+
+}
+
+button:hover {
+    background-color:#8A2A8C;
+    border: 1px solid #8A2A8C;
+    border-radius: 4px;
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.photo{
+    width: 300px;
+    
+}
+
 
 /* Cerebral Palsy Section */
+#cp {
+    position: relative;
+    background-color: #BAFFF5;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px 0;
+}
 
 /* Limitations Section */
+
+#limitations {
+    background-color: #FECFFF;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px 0;
+}
 
 /* Qualities Section */
 
 /* Values Section */
 
+/* Needs Section */
+
 /* Footer Section */
+footer {
+    background-color: #52B3A2;
+    padding: 20px;
+    color: white
+}
+
+footer h2 {
+    color: white;
+}
+
+footer a {
+    color: #FFE99C;
+}
