@@ -155,6 +155,12 @@ button:hover {
 }
 
 /* Needs Section */
+#needs {
+    background-color: #FECFFF;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px 0;
+}
 
 /* Footer Section */
 footer {
