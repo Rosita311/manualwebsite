@@ -160,6 +160,26 @@ button:hover {
     padding: 20px;
     margin: 10px 0;
 }
+ 
+.limitations-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-photo {
+    width: 300px;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 800px) {
+    .limitations-gallery {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: wrap row;
+    }
+    
+}
 
 /* Qualities Section */
 #qualities {
