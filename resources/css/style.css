@@ -105,7 +105,8 @@ button:hover {
 }
 
 .photo{
-    width: 300px;
+    width: 400px;
+    border-radius: 4px;
     
 }
 
@@ -129,6 +130,28 @@ button:hover {
     margin: 10px 0;
 }
 
+
+.cp-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cp-containter {
+    width: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+    .cp-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: wrap row;
+    }
+    
+}
+
+
 /* Limitations Section */
 
 #limitations {
@@ -144,6 +167,22 @@ button:hover {
     border-radius: 4px;
     padding: 20px;
     margin: 10px 0;
+}
+
+.qualities-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .qualities-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: wrap row;
+    }
+    
 }
 
 /* Values Section */
