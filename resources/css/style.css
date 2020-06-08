@@ -65,7 +65,7 @@ nav {
     }
 
     h1 {
-        font-size: .75rem;
+        font-size: 1rem;
     }
 
      nav {
@@ -227,12 +227,49 @@ button:hover {
     margin: 10px 0;
 }
 
+.values-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .values-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: wrap row;
+    }
+    
+}
+
 /* Needs Section */
 #needs {
     background-color: #FECFFF;
     border-radius: 4px;
     padding: 20px;
     margin: 10px 0;
+}
+
+.needs-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.liststyle li {
+    font-size: 20px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .needs-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: wrap row;
+    }
+    
 }
 
 /* Footer Section */
