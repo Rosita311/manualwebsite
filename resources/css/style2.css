@@ -26,12 +26,12 @@ a {
 header {
     border-bottom:rgb(233,233,233);
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     height: 90px;
     max-width: 1200px;
     position: fixed;
-    z-index: 1; 
+    z-index: 1;  
     background-color: white;
     top: 0; 
 }
@@ -87,12 +87,6 @@ h2 {
     text-align: center;
 }
 
-.intro {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 button {
     background-color: #52B3A2;
     border: 1px solid #52B3A2;
@@ -112,8 +106,14 @@ button:hover {
     padding: 10px;
 }
 
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .photo{
-    width: 400px;
+    width: 100%;
     border-radius: 4px;
     
 }
@@ -188,7 +188,7 @@ button:hover {
 @media only screen and (max-width: 800px) {
     .limitations-gallery {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         flex-flow: wrap row;
     }
@@ -243,6 +243,11 @@ button:hover {
     
 }
 
+.values-container .photo {
+    margin: auto;
+
+}
+
 /* Needs Section */
 #needs {
     background-color: #FECFFF;
@@ -255,6 +260,10 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.fas{
+    list-style-image: url(./resources/images/heart.svg);
 }
 
 .liststyle li {
