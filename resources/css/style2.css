@@ -112,8 +112,8 @@ button:hover {
     align-items: center;
 }
 
-.photo{
-    width: 100%;
+.photo { 
+    width: 400px;
     border-radius: 4px;
     
 }
@@ -128,8 +128,7 @@ button:hover {
 
     .photo{
         width: 300px;
-        border-radius: 4px;
-        
+        border-radius: 4px;  
     }
     
 }
@@ -151,9 +150,7 @@ button:hover {
 
 }
 
-.cp-containter {
-    width: 50%;
-}
+
 
 @media only screen and (max-width: 800px) {
     .cp-section {
@@ -203,10 +200,17 @@ button:hover {
     margin: 10px 0;
 }
 
+
+
 .qualities-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-flow: wrap row;
+}
+
+.icon {
+    color: #52B3A2;
 }
 
 @media only screen and (max-width: 800px) {
@@ -215,8 +219,7 @@ button:hover {
         justify-content: space-around;
         align-items: center;
         flex-flow: wrap row;
-    }
-    
+    }  
 }
 
 /* Values Section */
@@ -231,7 +234,12 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: wrap row;
 }
+
+
+
+
 
 @media only screen and (max-width: 800px) {
     .values-section {
@@ -243,12 +251,8 @@ button:hover {
     
 }
 
-.values-container .photo {
-    margin: auto;
-
-}
-
 /* Needs Section */
+
 #needs {
     background-color: #FECFFF;
     border-radius: 4px;
@@ -262,13 +266,31 @@ button:hover {
     align-items: center;
 }
 
-.fas{
-    list-style-image: url(./resources/images/heart.svg);
+.needs-container img {
+    width: 400px;
 }
 
-.liststyle li {
-    font-size: 20px;
 
+.needs-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap row;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+
+.item {
+    margin: 10px;
+    width: 200px;
+}
+
+.item .icon {
+    color: #52B3A2;
+    font-size: 130px;
 }
 
 @media only screen and (max-width: 800px) {
