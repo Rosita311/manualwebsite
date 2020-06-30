@@ -4,7 +4,7 @@ body {
     max-width: 1200px;
     align-content: center;
     margin: auto;
-    overflow-x: hidden;
+    
 }
 
 h1 {
@@ -130,6 +130,10 @@ button:hover {
     .photo{
         width: 300px;
         border-radius: 4px;  
+    }
+
+    body {
+        overflow-x: hidden;
     }
     
 }
