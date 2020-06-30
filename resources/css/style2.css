@@ -4,6 +4,7 @@ body {
     max-width: 1200px;
     align-content: center;
     margin: auto;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -20,7 +21,6 @@ a {
   color: #8A2A8C; 
   text-decoration: none; 
 }
-
 
 /* Header Section */
 header {
@@ -57,6 +57,7 @@ nav {
      color: #52B3A2;
      text-align: center;
  }
+
 
  @media only screen and (max-width: 800px) {
     header {
@@ -207,10 +208,18 @@ button:hover {
 }
 
 ul {
-    list-style-image: url(../images/heart.svg);
+    list-style: none;
 }
 
-.fas fa-heart ul li::before {
+#qualities ul li::before {
+    content: "	\2764";  
+    color: #52B3A2; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+    
+  
     
 }
 
@@ -238,7 +247,17 @@ ul {
     align-items: center;
 }
 
-
+#values ul li::before {
+    content: "\2764";  
+    color: #8A2A8C; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+    
+  
+    
+}
 
 
 
