@@ -30,7 +30,7 @@ header {
     align-items: center;
     height: 90px;
     max-width: 1200px;
-    position: fixed;
+    position: fixed; 
     z-index: 1;  
     background-color: white;
     top: 0; 
@@ -57,7 +57,6 @@ nav {
      color: #52B3A2;
      text-align: center;
  }
-
 
  @media only screen and (max-width: 800px) {
     header {
@@ -117,6 +116,11 @@ button:hover {
     width: 400px;
     border-radius: 4px;
     
+}
+
+figcaption {
+    text-align: center;
+    color: #464646;
 }
 
 @media only screen and (max-width: 800px) {
@@ -216,7 +220,7 @@ ul {
 }
 
 #qualities ul li::before {
-    content: "	\2764";  
+    content: "\2665";  
     color: #52B3A2; 
     font-weight: bold; 
     display: inline-block; 
