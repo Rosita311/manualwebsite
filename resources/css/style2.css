@@ -220,7 +220,7 @@ ul {
 }
 
 #qualities ul li::before {
-    content: "\2665";  
+    content: "\2764";  
     color: #52B3A2; 
     font-weight: bold; 
     display: inline-block; 
